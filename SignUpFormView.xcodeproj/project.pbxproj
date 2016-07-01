@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3222151C91DE2B008AC701 /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3222141C91DE2B008AC701 /* DropDownTableViewCell.swift */; };
+		3ACA48891C8DBDEF0000BE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA48881C8DBDEF0000BE5F /* AppDelegate.swift */; };
+		3ACA488B1C8DBDEF0000BE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA488A1C8DBDEF0000BE5F /* ViewController.swift */; };
+		3ACA488E1C8DBDEF0000BE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA488C1C8DBDEF0000BE5F /* Main.storyboard */; };
+		3ACA48901C8DBDEF0000BE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA488F1C8DBDEF0000BE5F /* Assets.xcassets */; };
+		3ACA48931C8DBDEF0000BE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA48911C8DBDEF0000BE5F /* LaunchScreen.storyboard */; };
+		3ACA489E1C8DBDEF0000BE5F /* SignUpFormViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA489D1C8DBDEF0000BE5F /* SignUpFormViewTests.swift */; };
+		3ACA48A91C8DBDEF0000BE5F /* SignUpFormViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA48A81C8DBDEF0000BE5F /* SignUpFormViewUITests.swift */; };
+		3ACA48B81C8DC0260000BE5F /* SignUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA48B71C8DC0260000BE5F /* SignUpTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ACA489A1C8DBDEF0000BE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACA487D1C8DBDEF0000BE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACA48841C8DBDEF0000BE5F;
+			remoteInfo = SignUpFormView;
+		};
+		3ACA48A51C8DBDEF0000BE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACA487D1C8DBDEF0000BE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACA48841C8DBDEF0000BE5F;
+			remoteInfo = SignUpFormView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A3222141C91DE2B008AC701 /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+		3ACA48851C8DBDEF0000BE5F /* SignUpFormView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpFormView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA48881C8DBDEF0000BE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ACA488A1C8DBDEF0000BE5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ACA488D1C8DBDEF0000BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ACA488F1C8DBDEF0000BE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ACA48921C8DBDEF0000BE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ACA48941C8DBDEF0000BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA48991C8DBDEF0000BE5F /* SignUpFormViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpFormViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA489D1C8DBDEF0000BE5F /* SignUpFormViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormViewTests.swift; sourceTree = "<group>"; };
+		3ACA489F1C8DBDEF0000BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA48A41C8DBDEF0000BE5F /* SignUpFormViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignUpFormViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA48A81C8DBDEF0000BE5F /* SignUpFormViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormViewUITests.swift; sourceTree = "<group>"; };
+		3ACA48AA1C8DBDEF0000BE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA48B71C8DC0260000BE5F /* SignUpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ACA48821C8DBDEF0000BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA48961C8DBDEF0000BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA48A11C8DBDEF0000BE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACA487C1C8DBDEE0000BE5F = {
+			isa = PBXGroup;
+			children = (
+				3ACA48871C8DBDEF0000BE5F /* SignUpFormView */,
+				3ACA489C1C8DBDEF0000BE5F /* SignUpFormViewTests */,
+				3ACA48A71C8DBDEF0000BE5F /* SignUpFormViewUITests */,
+				3ACA48861C8DBDEF0000BE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ACA48861C8DBDEF0000BE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA48851C8DBDEF0000BE5F /* SignUpFormView.app */,
+				3ACA48991C8DBDEF0000BE5F /* SignUpFormViewTests.xctest */,
+				3ACA48A41C8DBDEF0000BE5F /* SignUpFormViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ACA48871C8DBDEF0000BE5F /* SignUpFormView */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA48B61C8DBFFD0000BE5F /* TableViewCustomCell */,
+				3ACA48881C8DBDEF0000BE5F /* AppDelegate.swift */,
+				3ACA488A1C8DBDEF0000BE5F /* ViewController.swift */,
+				3ACA488C1C8DBDEF0000BE5F /* Main.storyboard */,
+				3ACA488F1C8DBDEF0000BE5F /* Assets.xcassets */,
+				3ACA48911C8DBDEF0000BE5F /* LaunchScreen.storyboard */,
+				3ACA48941C8DBDEF0000BE5F /* Info.plist */,
+			);
+			path = SignUpFormView;
+			sourceTree = "<group>";
+		};
+		3ACA489C1C8DBDEF0000BE5F /* SignUpFormViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA489D1C8DBDEF0000BE5F /* SignUpFormViewTests.swift */,
+				3ACA489F1C8DBDEF0000BE5F /* Info.plist */,
+			);
+			path = SignUpFormViewTests;
+			sourceTree = "<group>";
+		};
+		3ACA48A71C8DBDEF0000BE5F /* SignUpFormViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA48A81C8DBDEF0000BE5F /* SignUpFormViewUITests.swift */,
+				3ACA48AA1C8DBDEF0000BE5F /* Info.plist */,
+			);
+			path = SignUpFormViewUITests;
+			sourceTree = "<group>";
+		};
+		3ACA48B61C8DBFFD0000BE5F /* TableViewCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA48B71C8DC0260000BE5F /* SignUpTableViewCell.swift */,
+				3A3222141C91DE2B008AC701 /* DropDownTableViewCell.swift */,
+			);
+			name = TableViewCustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ACA48841C8DBDEF0000BE5F /* SignUpFormView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA48AD1C8DBDEF0000BE5F /* Build configuration list for PBXNativeTarget "SignUpFormView" */;
+			buildPhases = (
+				3ACA48811C8DBDEF0000BE5F /* Sources */,
+				3ACA48821C8DBDEF0000BE5F /* Frameworks */,
+				3ACA48831C8DBDEF0000BE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignUpFormView;
+			productName = SignUpFormView;
+			productReference = 3ACA48851C8DBDEF0000BE5F /* SignUpFormView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ACA48981C8DBDEF0000BE5F /* SignUpFormViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA48B01C8DBDEF0000BE5F /* Build configuration list for PBXNativeTarget "SignUpFormViewTests" */;
+			buildPhases = (
+				3ACA48951C8DBDEF0000BE5F /* Sources */,
+				3ACA48961C8DBDEF0000BE5F /* Frameworks */,
+				3ACA48971C8DBDEF0000BE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACA489B1C8DBDEF0000BE5F /* PBXTargetDependency */,
+			);
+			name = SignUpFormViewTests;
+			productName = SignUpFormViewTests;
+			productReference = 3ACA48991C8DBDEF0000BE5F /* SignUpFormViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ACA48A31C8DBDEF0000BE5F /* SignUpFormViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA48B31C8DBDEF0000BE5F /* Build configuration list for PBXNativeTarget "SignUpFormViewUITests" */;
+			buildPhases = (
+				3ACA48A01C8DBDEF0000BE5F /* Sources */,
+				3ACA48A11C8DBDEF0000BE5F /* Frameworks */,
+				3ACA48A21C8DBDEF0000BE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACA48A61C8DBDEF0000BE5F /* PBXTargetDependency */,
+			);
+			name = SignUpFormViewUITests;
+			productName = SignUpFormViewUITests;
+			productReference = 3ACA48A41C8DBDEF0000BE5F /* SignUpFormViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ACA487D1C8DBDEF0000BE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Chetu;
+				TargetAttributes = {
+					3ACA48841C8DBDEF0000BE5F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3ACA48981C8DBDEF0000BE5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3ACA48841C8DBDEF0000BE5F;
+					};
+					3ACA48A31C8DBDEF0000BE5F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3ACA48841C8DBDEF0000BE5F;
+					};
+				};
+			};
+			buildConfigurationList = 3ACA48801C8DBDEF0000BE5F /* Build configuration list for PBXProject "SignUpFormView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ACA487C1C8DBDEE0000BE5F;
+			productRefGroup = 3ACA48861C8DBDEF0000BE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ACA48841C8DBDEF0000BE5F /* SignUpFormView */,
+				3ACA48981C8DBDEF0000BE5F /* SignUpFormViewTests */,
+				3ACA48A31C8DBDEF0000BE5F /* SignUpFormViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ACA48831C8DBDEF0000BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA48931C8DBDEF0000BE5F /* LaunchScreen.storyboard in Resources */,
+				3ACA48901C8DBDEF0000BE5F /* Assets.xcassets in Resources */,
+				3ACA488E1C8DBDEF0000BE5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA48971C8DBDEF0000BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA48A21C8DBDEF0000BE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ACA48811C8DBDEF0000BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA48B81C8DC0260000BE5F /* SignUpTableViewCell.swift in Sources */,
+				3ACA488B1C8DBDEF0000BE5F /* ViewController.swift in Sources */,
+				3A3222151C91DE2B008AC701 /* DropDownTableViewCell.swift in Sources */,
+				3ACA48891C8DBDEF0000BE5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA48951C8DBDEF0000BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA489E1C8DBDEF0000BE5F /* SignUpFormViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA48A01C8DBDEF0000BE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA48A91C8DBDEF0000BE5F /* SignUpFormViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ACA489B1C8DBDEF0000BE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACA48841C8DBDEF0000BE5F /* SignUpFormView */;
+			targetProxy = 3ACA489A1C8DBDEF0000BE5F /* PBXContainerItemProxy */;
+		};
+		3ACA48A61C8DBDEF0000BE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACA48841C8DBDEF0000BE5F /* SignUpFormView */;
+			targetProxy = 3ACA48A51C8DBDEF0000BE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ACA488C1C8DBDEF0000BE5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACA488D1C8DBDEF0000BE5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ACA48911C8DBDEF0000BE5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACA48921C8DBDEF0000BE5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ACA48AB1C8DBDEF0000BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ACA48AC1C8DBDEF0000BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ACA48AE1C8DBDEF0000BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignUpFormView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.app.SignUpFormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ACA48AF1C8DBDEF0000BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignUpFormView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.app.SignUpFormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ACA48B11C8DBDEF0000BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignUpFormViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.app.SignUpFormViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignUpFormView.app/SignUpFormView";
+			};
+			name = Debug;
+		};
+		3ACA48B21C8DBDEF0000BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignUpFormViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.app.SignUpFormViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignUpFormView.app/SignUpFormView";
+			};
+			name = Release;
+		};
+		3ACA48B41C8DBDEF0000BE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignUpFormViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.app.SignUpFormViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SignUpFormView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3ACA48B51C8DBDEF0000BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignUpFormViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.app.SignUpFormViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SignUpFormView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ACA48801C8DBDEF0000BE5F /* Build configuration list for PBXProject "SignUpFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA48AB1C8DBDEF0000BE5F /* Debug */,
+				3ACA48AC1C8DBDEF0000BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA48AD1C8DBDEF0000BE5F /* Build configuration list for PBXNativeTarget "SignUpFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA48AE1C8DBDEF0000BE5F /* Debug */,
+				3ACA48AF1C8DBDEF0000BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA48B01C8DBDEF0000BE5F /* Build configuration list for PBXNativeTarget "SignUpFormViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA48B11C8DBDEF0000BE5F /* Debug */,
+				3ACA48B21C8DBDEF0000BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA48B31C8DBDEF0000BE5F /* Build configuration list for PBXNativeTarget "SignUpFormViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA48B41C8DBDEF0000BE5F /* Debug */,
+				3ACA48B51C8DBDEF0000BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ACA487D1C8DBDEF0000BE5F /* Project object */;
+}
